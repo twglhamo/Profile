@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tshewang Lhamo | Portfolio</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #c32489;
+      color: #000000;
+      padding: 0 1rem;
+    }
+
+    header {
+      background-color: #8b0d48;
+      padding: 1rem 0;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      margin: 0 1rem;
+    }
+
+    nav ul li a {
+      color: #faf6f8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 1rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .content, .career {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: #f8a5e8;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .majors {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .majors li {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #8b0e53;
+      color: #ffeffd;
+      margin-top: 2rem;
+    }
+
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav ul li {
+        margin: 0.5rem 0;
+      }
+
+      .profile-pic {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#major">MAJOR</a></li>
+        <li><a href="#contact">CONTACTS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="mee.jpeg" alt="Tshewang Lhamo" class="profile-pic" />
+    <h1>Tshewang Lhamo</h1>
+    <p>1st Year BE Software Engineering</p>
+    <blockquote>
+      “A Developer who judges an app by its load time, because first impressions crash fast.”
+    </blockquote>
+  </section>
+
+  <section id="about" class="content">
+    <h2>About Me</h2>
+    <p>
+      Hello, I am Tshewang Lhamo, pursuing BE in Software Engineering with a strong passion for building smart, efficient, and user-friendly solutions. I enjoy solving complex problems through clean code and creative thinking. My strengths lie in logical reasoning, attention to detail, and a constant drive to learn and improve. I am particularly interested in web development, AI, app design and love turning ideas into reality with working code.
+    </p>
+  </section>
+
+  <section id="major" class="content">
+    <h2>Major In</h2>
+    <ul class="majors">
+      <li>💻 Programming Methodology</li>
+      <li>🌐 HTML and CSS</li>
+      <li>📊 Probability and Statistics</li>
+      <li>📡 Networking and Communication</li>
+    </ul>
+  </section>
+
+  <section class="career">
+    <h2>Career Objectives</h2>
+    <p>
+      My goal is to become a skilled software developer who creates innovative, efficient, and user-centered solutions. I’m committed to evolving my expertise in full-stack development and emerging technologies, while contributing meaningfully to real-world projects.
+    </p>
+
+    <h2>Future Aspiration</h2>
+    <p>
+      I aspire to be a versatile and productive software engineer who understands user needs and builds intuitive software. I aim to work in dynamic teams and stay updated with the latest tech trends to build impactful products.
+    </p>
+  </section>
+
+  <section id="contact" class="content">
+    <h2>Want to know more about me?</h2>
+    <p>Email: <a href="mailto:02250377.cst@rub.edu.bt">02250377.cst@rub.edu.bt</a></p>
+    <p>Facebook: <a href="https://facebook.com/Lhaa" target="_blank">Lhaa</a></p>
+    <p>Instagram: <a href="https://instagram.com/Lhaa.zz" target="_blank">Lhaa.zz</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Tshewang Lhamo</p>
+  </footer>
+</body>
+</html>
