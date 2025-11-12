@@ -4,112 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tshewang Lhamo | Portfolio</title>
-  <style>
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      background-color: #c32489;
-      color: #000000;
-      padding: 0 1rem;
-    }
-
-    header {
-      background-color: #8b0d48;
-      padding: 1rem 0;
-    }
-
-    nav ul {
-      display: flex;
-      justify-content: center;
-      list-style: none;
-      flex-wrap: wrap;
-    }
-
-    nav ul li {
-      margin: 0 1rem;
-    }
-
-    nav ul li a {
-      color: #faf6f8;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .hero {
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-
-    .profile-pic {
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 50%;
-      display: block;
-      margin: 0 auto 1rem;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    .content, .career {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background-color: #f8a5e8;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    .majors {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    .majors li {
-      margin: 0.5rem 0;
-      font-size: 1.1rem;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #8b0e53;
-      color: #ffeffd;
-      margin-top: 2rem;
-    }
-
-
-    @media (max-width: 600px) {
-      nav ul {
-        flex-direction: column;
-        align-items: center;
-      }
-
-      nav ul li {
-        margin: 0.5rem 0;
-      }
-
-      .profile-pic {
-        width: 150px;
-        height: 150px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
+  <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+  />
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">ABOUT ME</a></li>
-        <li><a href="#major">MAJOR</a></li>
-        <li><a href="#contact">CONTACTS</a></li>
-      </ul>
+  <header class="header">
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#about" class="active">About me</a>
+      <a href="#skills">Major</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
@@ -120,6 +27,8 @@
     <blockquote>
       “A Developer who judges an app by its load time, because first impressions crash fast.”
     </blockquote>
+    <a href="#contact" class="cta-button">Let's Connect</a>
+  </section>
   </section>
 
   <section id="about" class="content">
@@ -162,4 +71,5 @@
     <p>© 2025 Tshewang Lhamo</p>
   </footer>
 </body>
+<script src="script.js" defer></script>
 </html>
